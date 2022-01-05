@@ -46,7 +46,7 @@ const linVariants= {
 
 const Intro =()=>{
 
-    return <div className="intro-section">
+    return <div className="intro-section" id="home">
     <div className="heading">
       <motion.h1 className="h1" initial={{y:"100%",}} animate={{y:0,}} >Here is Nawal ,A passionate <motion.div variants={headingVariants} className='front' animate='visible' initial="hidden"  >
       <motion.div className="green-line" variants={linVariants} animate='visible' initial='hidden'></motion.div>
@@ -54,7 +54,7 @@ const Intro =()=>{
       a web designer .</motion.h1>
       </div>
       <motion.div className="social"  variants={socialVariants} animate='visible' initial="hidden">
-      <motion.a href="" className="icons" whileHover={{scale:1.8}} >
+      {/* <motion.a href="" className="icons" whileHover={{scale:1.8}} >
       <AiFillLinkedin />
       </motion.a>
       <motion.a href="" className="icons" whileHover={{scale:1.8}}>
@@ -62,7 +62,7 @@ const Intro =()=>{
       </motion.a>
       <motion.a href="" className="icons" whileHover={{scale:1.8}}>
       <AiFillGithub className="icons"/>
-      </motion.a>   
+      </motion.a>    */}
       </motion.div>
     </div>
 }

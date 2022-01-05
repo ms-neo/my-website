@@ -2,6 +2,7 @@
 import React, { Fragment ,useRef ,useEffect, useState} from 'react';
 import {useInView} from 'react-intersection-observer'
 import {motion, useAnimation ,AnimatePresence} from 'framer-motion'
+import {Link} from 'react-router-dom'
 
 
 const subVariants ={
@@ -79,8 +80,10 @@ const Skills =({skillsData})=>{
     },[animation,inView])
 
     return (
-     <Fragment>
-  <div className="container skill"  >
+    //  <Fragment >
+
+  <div className="container skill"  id={"skill"}>
+  {/* <Link to="#skills"></Link> */}
   {/* <h2 className="skill-title">I am good at :</h2> */}
   <AnimatePresence>
   <motion.div 
@@ -116,7 +119,8 @@ const Skills =({skillsData})=>{
     </motion.div>
     </AnimatePresence>
     </div>
-    </Fragment>
+
+    // </Fragment>
     )
 }
 

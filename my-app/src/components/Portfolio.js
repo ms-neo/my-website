@@ -38,7 +38,7 @@ const Portfolio =({portfolioData})=>{
 
     return (
 
-      <div className="container"> 
+      <div className="container" id="portfolio"> 
       <h2 className="title">My latest projects :</h2>
       <div className="portfolio">
       {portfolioData.map((p,index)=>

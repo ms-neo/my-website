@@ -10,11 +10,13 @@ $light-black:#343537;
 $dark-gray:#403D3D;
 $med-gray:#696969;
 
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior:smooth
 }
 .title{
     color: $light-black;
@@ -63,9 +65,10 @@ nav {
             text-decoration: none;
             font-weight: 500;
             text-transform: uppercase;
-         
+            cursor: pointer;
         }
     }
+
 
     .nav-links.close-menu {
         visibility: visible;
@@ -119,6 +122,7 @@ nav {
 .container {
     overflow: hidden;
 }
+
 
 // -----HERO SECTION ---------
 .intro-section {
@@ -454,6 +458,7 @@ nav {
         .icons {
             color: $footer-color;
             margin: 0 10px;
+            cursor: pointer;
 
             &:hover {
                 color: $green-color;

@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import {portfolioData} from './portfolioData';
 import {skillsData} from './portfolioData';
 import './index.scss';
+import { Route, Switch } from 'react-router-dom';
 
 
 
@@ -21,6 +22,9 @@ const App = () => {
 <Portfolio portfolioData={portfolioData} /> 
 <ContantMe />
 <Footer/>
+{/* <Switch>
+<Route exact path="/skills" component={Skills} />
+</Switch> */}
     </Fragment>
   );
 }

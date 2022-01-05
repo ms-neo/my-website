@@ -1,6 +1,8 @@
 import React, {Fragment} from 'react';
 import logo from './media/nawal.svg';
 import {motion } from 'framer-motion'
+import { HashLink } from 'react-router-hash-link'
+import {Link} from 'react-router-dom'
 
 
 const childrenVariants ={
@@ -52,7 +54,7 @@ const liVariants ={
     }
 }
 
-const navText =['Skill', 'Portfolio' , 'Hire me']
+// const navText =['Skill', 'Portfolio' , 'Hire me']
 
 const Navbar = ({menuState, setMenuState}) => {
   
@@ -61,12 +63,21 @@ const Navbar = ({menuState, setMenuState}) => {
             <nav>
                 <img className="logo" src={logo}/>
                 <motion.ul className={`nav-links ${menuState? "close-menu"  : ""}`} variants={ulVariants} animate="visible" initial="hidden" >
-                {navText.map((text,index) =>
-                    <motion.li key={index} variants={liVariants}>
-                        <motion.a href="#" whileHover="hover" animate="rest" initial="rest"  >
-                        <motion.span className="line" variants={childrenVariants} ></motion.span>{text}</motion.a>
+                    <motion.li  variants={liVariants}>
+                        <motion.div  whileHover="hover" animate="rest" initial="rest" >
+                        <motion.a onClick={()=>window.location.replace("/#skill")} whileHover="hover" animate="rest" initial="rest">
+                        <motion.span className="line" variants={childrenVariants}></motion.span>Skills</motion.a></motion.div>
                     </motion.li>
-                )}
+                    <motion.li  variants={liVariants}>
+                        <motion.div  whileHover="hover" animate="rest" initial="rest" >
+                        <motion.a onClick={()=>window.location.replace("/#portfolio")} whileHover="hover" animate="rest" initial="rest">
+                        <motion.span className="line" variants={childrenVariants}></motion.span>Portfolio</motion.a></motion.div>
+                    </motion.li>
+                    <motion.li  variants={liVariants}>
+                        <motion.div  whileHover="hover" animate="rest" initial="rest" >
+                        <motion.a onClick={()=>window.location.replace("/#contact")} whileHover="hover" animate="rest" initial="rest">
+                        <motion.span className="line" variants={childrenVariants}></motion.span>Hire Me</motion.a></motion.div>
+                    </motion.li>
                 </motion.ul>
         <div className="toggle-button" onClick={()=>setMenuState(!menuState)}>
             {!menuState ? (<Fragment><div className="bar"></div>

@@ -61,7 +61,7 @@ const ContantMe = () => {
 
 
     return (
-        <div className="container contact-me">
+        <div className="container contact-me" id ="contact">
         <AnimatePresence>
         <motion.div  className="subcontainer" variants={subVariants} animate={animation} initial="hidden" ref={ref}>
         <motion.div className='left-side' 

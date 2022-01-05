@@ -4,6 +4,7 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {GrTwitter} from 'react-icons/gr'
 import {useInView} from 'react-intersection-observer'
 import {motion ,useAnimation} from 'framer-motion'
+import { BrowserRouter, Link, Router } from 'react-router-dom'
 
 const socialVariants = {
     'hidden': {
@@ -62,18 +63,18 @@ const Footer = () => {
         animate={animation}
         ref={ref}>
         <motion.div className="white-logo" variants={logoVariants}>
-       <a href="/"><img src={whiteLogo} /></a> 
+       <a onClick={()=> window.location.replace("/#home")}><img src={whiteLogo} /></a> 
         </motion.div>
-        <motion.div className="social" variants={socialVariants} >
-      <motion.a href="" className="icons"  whileHover={{scale:1.8}}>
+        <motion.div className="social " variants={socialVariants} >
+      {/* <motion.a href="https://www.google.com/" className="icons"  whileHover={{scale:1.8}}>
       <AiFillLinkedin />
       </motion.a>
-      <motion.a href="" className="icons" whileHover={{scale:1.8}}>
+      <motion.a href="https://www.google.com/" whileHover={{scale:1.8}}>
       <GrTwitter className="icons"/>
       </motion.a>
-      <motion.a href="" className="icons" whileHover={{scale:1.8}}>
+      <motion.a href="https://www.google.com/" className="icons" whileHover={{scale:1.8}}>
       <AiFillGithub className="icons"/>
-      </motion.a>   
+      </motion.a>    */}
       </motion.div>
           <p>© 2021 Nawal All rights reserved</p>
         </motion.div>
