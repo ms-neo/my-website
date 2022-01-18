@@ -1,13 +1,11 @@
-// const pik =require('3.svg');
-// import pik from './components/media/ps5.png';
+
 import front from './components/media/front-end.svg';
 import back from './components/media/back-end.svg';
 import design from './components/media/web-design.svg';
-// import pik from './components/media/';
+
 
 export const portfolioData = [{
     id: 1,
-    // projectName:''
     vidUrl: "https://imgur.com/LArcybK.gif",
     websiteUrl: "https://nobel-hands-ms-neo.vercel.app/",
     githubUrl: "https://github.com/ms-neo/nobel-hands",
@@ -33,6 +31,13 @@ export const portfolioData = [{
     websiteUrl: "https://animals-in-danger.herokuapp.com/",
     githubUrl: "https://github.com/ms-neo/endangered-animals",
     tools:"react.js - node.js - mongoDB "
+},
+{
+    id: 5,
+    vidUrl: "https://imgur.com/oeQvmij.gif",
+    websiteUrl: "https://pedantic-colden-1aac76.netlify.app/",
+    githubUrl: "https://github.com/ms-neo/Jeffrey-portfolio",
+    tools:"react.js - matrialUi - styled-component - react-spring "
 }
 ];
 

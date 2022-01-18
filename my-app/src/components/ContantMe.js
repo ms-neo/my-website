@@ -70,8 +70,7 @@ const ContantMe = () => {
         animate={animation}
         ref={ref}>
         <h1>Hi ;</h1>
-        <p>My name is Nawal ,I am a woman who lives in Saudia Arabia , I've always been
-        facinated about technology , websites, game devlopment , coding , etc , I finally deceided to learn web development
+        <p>My name is Nawal ,I live in Saudia Arabia , I've been always        facinated about technology , websites, game devlopment , coding , etc , I finally deceided to learn web development
         and guess what ? I just fell in love with it , I'm truly happy to be a web develper , it makes me happy to see all these
         code turning into colours , shapes , and alive items that wrapped in a beatiful layout , I also love the part where I stuck
         and find solutions , it pleases my mind to solve problems.

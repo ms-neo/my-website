@@ -17,7 +17,6 @@ const ContantForm = () => {
     }
 
     return (
-     
     <form id="form" onSubmit={sendEmail} >
     <label>Name</label>
     <input type="text" id="fname"  placeholder="name..." name='name'/>
