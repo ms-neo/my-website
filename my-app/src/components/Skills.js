@@ -108,7 +108,7 @@ const Skills =({skillsData})=>{
     <div>
     <motion.div className="line" variants={childrenVariants}></motion.div>
     <motion.h3 variants={childrenVariants}>{item.title}</motion.h3>
-    {  Array.isArray(item.skills) ? <Fragment>
+    {Array.isArray(item.skills) ? <Fragment>
     <motion.ul variants={childrenVariants}>
     {item.skills.map((skillItem,index) => 
     <li key={index}>{skillItem}</li> )} 

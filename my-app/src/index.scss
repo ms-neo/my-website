@@ -195,6 +195,7 @@ nav {
 
     img {
         width: 40%;
+        object-fit: cover;
     }
 
     .card {
@@ -265,6 +266,8 @@ nav {
         position: relative;
         border-radius: 15px;
         color: $dark-gray;
+        // width: 400px;
+        // height: 600px;
     }
 
     .icon-hover {
@@ -310,7 +313,7 @@ nav {
     .vid {
         object-fit: cover;
         width: 100%;
-        height: 40vh;
+        height: 300px;
     }
 
     h3 {
@@ -354,8 +357,7 @@ nav {
 
         &:hover {
             border: 2px solid $green-color;
-            // background: $green-color;
-            // color: $gray-font-color;
+
         }
 
     }

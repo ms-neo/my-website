@@ -47,9 +47,8 @@ const Portfolio =({portfolioData})=>{
        {p.tools}</div>
      
      <div className="vid">
-    {/* <iframe src={p.vidUrl} frameborder="0" allow="autoplay; fullscreen; picture-in-picture ;loop" allowfullscreen  title="nobel-hands screenshot" width="100%" height="100%"></iframe> */}
-    <img src={p.vidUrl} height="100%"></img>
-    {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/pQvbpoDYosc&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture ;loop" allowfullscreen></iframe> */}
+    <img src={p.vidUrl} height="100%" width="100%"></img>
+ 
     </div>
     <div className="btns">
       <motion.a className="btn visit-btn" target="_blank" href={p.websiteUrl}>Visit Website</motion.a>
