@@ -47,7 +47,7 @@ const Portfolio =({portfolioData})=>{
        {p.tools}</div>
      
      <div className="vid">
-    <img src={p.vidUrl} height="100%" width="100%"></img>
+    <img src={p.vidUrl} id="gif"></img>
  
     </div>
     <div className="btns">
