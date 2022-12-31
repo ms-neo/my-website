@@ -21,14 +21,14 @@ export const portfolioData = [{
 {
     id: 2,
     vidUrl: "https://imgur.com/6Cn8MWB.gif",
-    websiteUrl: "https://animals-in-danger.herokuapp.com/",
+    websiteUrl: "https://endangered-animals.onrender.com",
     githubUrl: "https://github.com/ms-neo/endangered-animals",
     tools:"react.js - node.js - mongoDB "
 },
 {
     id: 3,
     vidUrl: "https://imgur.com/ZptR5BL.gif",
-    websiteUrl: "https://today-weather-app.herokuapp.com/",
+    websiteUrl: "https://weather-app-6tub.onrender.com",
     githubUrl: "https://github.com/ms-neo/weather-app/tree/master",
     tools:"html - sass - javascript - rest api - bootstrap - node.js"
 
