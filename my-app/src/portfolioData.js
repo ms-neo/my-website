@@ -4,7 +4,15 @@ import back from './components/media/back-end.svg';
 import design from './components/media/web-design.svg';
 
 
-export const portfolioData = [{
+export const portfolioData = [
+    {
+        id: 0,
+        vidUrl: "https://imgur.com/EvMc1SR.gif",
+        websiteUrl: "https://www.pizpie.com/",
+        githubUrl: "https://github.com/ms-neo/pizpie",
+        tools:"react.js - node.js - mongodb"
+    },
+    {
     id: 0,
     vidUrl: "https://imgur.com/oeQvmij.gif",
     websiteUrl: "https://pedantic-colden-1aac76.netlify.app/",
