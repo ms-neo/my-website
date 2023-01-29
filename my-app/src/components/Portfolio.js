@@ -43,8 +43,11 @@ const Portfolio =({portfolioData})=>{
       <div className="portfolio">
       {portfolioData.map((p,index)=>
       <div className="card" key={index} >
+
       <div style={{marginTop :"1rem"}}>
-       {p.tools}</div>
+      <h3>{p.title}</h3>
+       <p>{p.tools} </p>
+       </div>
      
      <div className="vid">
     <img src={p.vidUrl} id="gif"></img>
@@ -52,7 +55,7 @@ const Portfolio =({portfolioData})=>{
     </div>
     <div className="btns">
       <motion.a className="btn visit-btn" target="_blank" href={p.websiteUrl}>Visit Website</motion.a>
-      <a className="btn github-btn" target="_blank" href={p.githubUrl}>Github</a>
+      <a className="btn github-btn" target="_blank" href={p.githubUrl}>Source Code</a>
       </div>
 
      {/* <Button variants={iconVariants}  animate={isOpen?"opened":"closed"} tools={p.tools}/> */}

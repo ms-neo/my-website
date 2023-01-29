@@ -50,7 +50,7 @@ const Intro =()=>{
     <div className="heading">
       <motion.h1 className="h1" initial={{y:"100%",}} animate={{y:0,}} >Here is Nawal ,A passionate <motion.div variants={headingVariants} className='front' animate='visible' initial="hidden"  >
       <motion.div className="green-line" variants={linVariants} animate='visible' initial='hidden'></motion.div>
-      front-end develper</motion.div> and 
+      web develper</motion.div> and 
       a web designer .</motion.h1>
       </div>
       <motion.div className="social"  variants={socialVariants} animate='visible' initial="hidden">

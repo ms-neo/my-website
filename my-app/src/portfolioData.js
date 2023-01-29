@@ -7,46 +7,52 @@ import design from './components/media/web-design.svg';
 export const portfolioData = [
     {
         id: 0,
+        title:"Pizpie",
         vidUrl: "https://imgur.com/EvMc1SR.gif",
         websiteUrl: "https://www.pizpie.com/",
         githubUrl: "https://github.com/ms-neo/pizpie",
-        tools:"react.js - node.js - mongodb"
+        tools:"React.js - Node.js - Mongodb"
     },
     {
-    id: 0,
+    id: 1,
+    title:"Jeff Portfolio",
     vidUrl: "https://imgur.com/oeQvmij.gif",
-    websiteUrl: "https://pedantic-colden-1aac76.netlify.app/",
+    websiteUrl: "https://resilient-naiad-10845a.netlify.app",
     githubUrl: "https://github.com/ms-neo/Jeffrey-portfolio",
-    tools:"react.js - matrialUi - styled-component - react-spring "
+    tools:"React.js - MatrialUi - Styled-Component - React-Spring "
 },
 {
-    id: 1,
+    id: 2,
+    title:"Guess The Game",
     vidUrl: "https://imgur.com/SyAjfvO.gif",
     websiteUrl: "https://whats-the-game.netlify.app/",
     githubUrl: "https://github.com/ms-neo/Guess-The-Game",
-    tools:"html - css - javascript"
+    tools:"Html - Css - Javascript"
 }, 
 {
-    id: 2,
+    id: 3,
+    title:"Endangered Animals",
     vidUrl: "https://imgur.com/6Cn8MWB.gif",
     websiteUrl: "https://endangered-animals.onrender.com",
     githubUrl: "https://github.com/ms-neo/endangered-animals",
-    tools:"react.js - node.js - mongoDB "
-},
-{
-    id: 3,
-    vidUrl: "https://imgur.com/ZptR5BL.gif",
-    websiteUrl: "https://weather-app-6tub.onrender.com",
-    githubUrl: "https://github.com/ms-neo/weather-app/tree/master",
-    tools:"html - sass - javascript - rest api - bootstrap - node.js"
-
+    tools:"React.js - Node.js - MongoDB "
 },
 {
     id: 4,
+    title:"Weather App",
+    vidUrl: "https://imgur.com/ZptR5BL.gif",
+    websiteUrl: "https://weather-app-6tub.onrender.com",
+    githubUrl: "https://github.com/ms-neo/weather-app/tree/master",
+    tools:"Html - Sass - Javascript - RestApi - Bootstrap - Node.js"
+
+},
+{
+    id: 5,
+    title:"Nobel Hands",
     vidUrl: "https://imgur.com/LArcybK.gif",
     websiteUrl: "https://nobel-hands-ms-neo.vercel.app/",
     githubUrl: "https://github.com/ms-neo/nobel-hands",
-    tools:"html - css - javascript"
+    tools:"Html - Css - Javascript"
 }
 ];
 
